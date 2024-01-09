@@ -3,7 +3,7 @@ export const reducer = (state, action) => {
     case "SHOW-DATA":
       return {
         ...state,
-        data: [...state.data, action.payload],
+        questions: [...state.questions, action.payload],
       };
   }
 };

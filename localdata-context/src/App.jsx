@@ -1,5 +1,11 @@
+import Data from "./compnents/Data";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Data />
+    </>
+  );
 };
 
 export default App;
